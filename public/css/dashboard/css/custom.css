@@ -1,0 +1,94 @@
+/* Your Custom CSS Goes here */
+
+:root {
+    --primary-color: #ffd321;
+    --secondary-color: #000000;
+    --neutral-color: #ffffff;
+    --tertiary-color: #808080;
+}
+
+.btn-success {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-success:hover {
+    background-color: var(--primary-color);
+    opacity: 70%;
+    border-color: var(--primary-color);
+}
+
+body {
+    background-color: var(--neutral-color);
+}
+
+.app-menu>ul>li ul {
+    background: var(--tertiary-color);
+}
+
+.app-menu>ul ul li.open>a, .app-menu>ul>li ul li a.active, .app-menu>ul>li ul li a:hover {
+    color: var(--neutral-color);
+}
+
+.app-header::before {
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-sidebar .logo {
+    background-color: var(--neutral-color);
+}
+
+.app-sidebar .logo .logo-icon{
+    background: url(../images/logo/head-logo.png) no-repeat !important;
+}
+
+.app-header .nav-notifications-toggle {
+    color: var(--neutral-color) !important;
+    background: var(--primary-color);
+}
+
+.input-group-text {
+    padding: 3px 10px;
+}
+
+.note-editable {
+    color: var(--tertiary-color);
+}
+
+.app-menu>ul>li.active-page>a, .app-menu>ul>li.open>a, .app-menu>ul>li>a:hover {
+    color: var(--primary-color);
+}
+
+i {
+    color: var(--primary-color);
+}
+
+.app-menu>ul>li.active-page>a>i:not(.has-sub-menu).material-icons-two-tone, .app-menu>ul>li.open>a>i:not(.has-sub-menu).material-icons-two-tone, .app-menu>ul>li>a:hover>i:not(.has-sub-menu).material-icons-two-tone {
+    filter:  invert(80%) sepia(18%) saturate(1786%) hue-rotate(357deg) brightness(104%) contrast(102%);
+}
+
+/* product-view */
+.card-img-top {
+    height: 180px;
+    width: auto;
+    object-fit: fill;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    height: 300px;
+}
+
+/* article */
+.container-article {
+    overflow: hidden;
+}
+
+.container-article .one-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap; /* let the text wrap preserving spaces */
+}

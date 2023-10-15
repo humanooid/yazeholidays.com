@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #e6be1e;
+    --secondary-color: #000000;
+    --neutral-color: #ffffff;
+    --tertiary-color: #808080;
+}
+
+header.header-light .logo-2 {
+    width: 70px
+}
+
+@media (max-width: 480px) {
+    #content section:first-of-type{
+        display: none;
+    }
+
+    .no-top {
+        padding-top: 60px !important;
+    }
+
+    #section-img-with-tab {
+        display: none;
+    }
+}    
+
+@media (max-width: 990px) {
+    #content section:first-of-type{
+        display: none;
+    }
+
+    .no-top {
+        padding-top: 80px;
+    }
+
+    #section-img-with-tab {
+        display: none;
+    }
+}    
+
+.quotes {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.quotes p {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    font-size: larger;
+    line-height: 70px;
+}
+
+#section-img-with-tab {
+    background-color: rgb(245, 245, 245)
+}
+
+img[class="car_photo"] {
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.heaadline {
+    color: var(--neutral-color) !important;
+    background-color: var(--primary-color) !important;
+}
