@@ -8,7 +8,7 @@
 </head>
 
 <body style="margin: 0px !important;">
-    <img src="{{ asset('images/curtain.png') }}" alt="">
+    <img src="{{ asset('images/curt.png') }}" alt="">
 </body>
 
 </html>
