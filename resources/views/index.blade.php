@@ -15,8 +15,8 @@ Beranda
                     <div class="spacer-10"></div>
                     <h1><span class="headline">Explore</span> the world with comfortable car</h1>
                     <p class="lead">Embark on unforgettable adventures and discover the world in unparalleled comfort and style with our fleet of exceptionally comfortable cars.</p>
-
-                    <a class="btn-main" href="#">Choose a Car</a>&nbsp;&nbsp;&nbsp;
+                
+                    <a class="nav-link btn-main" href="#section-cars">Choose a Car</a>&nbsp;&nbsp;&nbsp;
                     <!-- <a class="btn-main btn-black" href="#">Get the App</a> -->
                 </div>
 
@@ -281,8 +281,8 @@ Beranda
                             </div>
                             <div class="post-text">
                                 <h4><a href="news-single.html">{{ $article->title }}<span></span></a></h4>
-                                <p>{{ strip_tags($article->content) }}</p>
-                                <a class="btn-main" href="#">Read More</a>
+                                <p>Author : {{ $article->writer }}</p>
+                                <a class="btn-main" href="{{ route('article.detail', $article) }}">Read More</a>
                             </div>
                         </div>
                     </div>
