@@ -57,11 +57,9 @@ Articles
                                         </td>
                                         <td>{{ $article->writer }}</td>
                                         <td>
-                                            <div class="container-article">
                                                 <div class="one-line">
                                                     {{ strip_tags($article->content) }}
                                                 </div>
-                                            </div>
                                         </td>
                                         <td>@if ($article->image)
                                             <img src="{{ Storage::url($article->image) }}" alt="{{ $article->title }}" width="200">

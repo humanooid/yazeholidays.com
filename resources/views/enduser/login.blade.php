@@ -1,4 +1,4 @@
-@extends('layouts.enduser')
+@extends('layouts.secondary')
 @section('content')
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
