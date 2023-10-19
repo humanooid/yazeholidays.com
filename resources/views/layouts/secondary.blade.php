@@ -54,26 +54,6 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="/home">
-                                            <img class="logo-1" src="images/logo-light.png" alt="">
-                                            <img class="logo-2" src="images/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
         <!-- header close -->
 

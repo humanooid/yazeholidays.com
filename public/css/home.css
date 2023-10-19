@@ -65,3 +65,14 @@ img[class="car_photo"] {
     color: var(--neutral-color) !important;
     background-color: var(--primary-color) !important;
 }
+
+/* login */
+.form-control {
+    border: solid 2px #eeeeee !important;
+    background: none;
+    padding: 8px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #ffffff;
+}
