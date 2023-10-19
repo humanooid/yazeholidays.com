@@ -9,8 +9,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 offset-lg-4">
-                        <div class="padding40 rounded-3 shadow-soft" data-bgcolor="#ffffff">
-                            <h4>Login</h4>
+                        <!-- <div class="padding40 rounded-3 shadow-soft" data-bgcolor="#ffffff"> -->
+                            <h4>Sign In</h4>
                             <div class="spacer-10"></div>
                             @if (session('warning'))
                             <div class="alert alert-warning">
@@ -23,7 +23,7 @@
                             @endif
                             <form id="form_register" class="form-border" method="post" action="{{ route('actionlogin') }}">
                                 @csrf
-                                <div class="field-set">
+                                <div class="field-set mb-2">
                                     <input type="email" name="signInEmail" id="signInEmail" class="form-control {{ $errors->has('signInEmail') ? 'is-invalid' : '' }}" placeholder="email" />
                                     @if ($errors->has('signInEmail'))
                                     <span class="invalid-feedback">{{ $errors->first('signInEmail') }}</span>
@@ -48,7 +48,7 @@
                                     <a class="btn-sc btn-fullwidth mb10" href="#"><img src="images/svg/facebook_icon.svg" alt="">Facebook</a>
                                 </div>
                             </div> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
