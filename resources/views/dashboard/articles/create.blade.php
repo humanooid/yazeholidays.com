@@ -9,7 +9,6 @@
                 <div class="col">
                     <div class="page-description">
                         <h1>Tambah Artikel</h1>
-                        <span>Isi formulir dibawah ini, untuk menambahkan artikel Anda, agar dapat ditampilkan di halaman depan !</span>
                     </div>
                 </div>
             </div>
@@ -24,43 +23,35 @@
 
             <form action="{{ route('article.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="row mb-3">
-                    <div class="col-12">
-                        <label for="title" class="form-label">Judul Artikel</label>
-                        <div class="input-group mb-3">
-                            <input type="text" id="title" class="form-control" name="title" value="{{ old('title') }}" aria-label="Judul Artikel" placeholder="Masukkan judul Artikel Anda disini !" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mb-3">
-                    <div class="col-12">
-                        <label for="title" class="form-label">Penulis</label>
-                        <div class="input-group mb-3">
-                            <input type="text" id="writer" class="form-control" name="writer" value="{{ old('writer') }}" aria-label="Penulis" placeholder="Masukkan nama Penulis disini !" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mb-3">
-                    <div class="col">
-                        <label for="content" class="form-label">Isi Artikel</label>
+                <div class="row">
+                    <div class="col-8">
                         <div class="card">
                             <div class="card-body">
+                                <label for="title" class="form-label">Judul Artikel</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" id="title" class="form-control" name="title" value="{{ old('title') }}" aria-label="Judul Artikel" placeholder="Masukkan judul Artikel Anda disini !" required>
+                                </div>
+
+                                <label for="content" class="form-label">Isi Artikel</label>
                                 <textarea id="summernote" name="content" value="{{ old('content') }}" required></textarea>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-12">
-                        <label for="file" class="form-label">Unggah Gambar</label>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="title" class="form-label">Penulis</label>
+                                <div class="input-group">
+                                    <input type="text" id="writer" class="form-control" name="writer" value="{{ old('writer') }}" aria-label="Penulis" placeholder="Masukkan nama Penulis disini !" required>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card">
                             <div class="card-body">
                                 <div>
-                                    <label for="image">Gambar:</label>
-                                    <input type="file" id="image" name="image">
+                                    <label for="image" class="form-label">Gambar Slider :</label>
+                                    <input class="form-control p-2" type="file" id="image" name="image">
                                 </div>
                             </div>
                         </div>
@@ -68,7 +59,7 @@
                 </div>
 
                 <div class="d-flex justify-content-end">
-                    <button class="btn btn-success submit my-3">Tambah</button>
+                    <button class="btn btn-success submit">Tambah</button>
                 </div>
 
             </form>

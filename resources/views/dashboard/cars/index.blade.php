@@ -1,21 +1,10 @@
 @extends('layouts.dashboard')
 
-@section('meta')
-<style>
-    table {
-        border-collapse: collapse;
-    }
-
-    td,
-    th {
-        padding: 10px;
-        /* Mengatur jarak pada sel */
-    }
-</style>
+@section('title')
+Cars
 @endsection
 
 @section('content')
-
 <div class="app-content">
     <div class="content-wrapper">
         <div class="container">
@@ -103,7 +92,4 @@
         </div>
     </div>
 </div>
-@endsection
-
-@section('js')
 @endsection

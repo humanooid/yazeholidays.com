@@ -3,6 +3,7 @@
 :root {
     --primary-color: #ffd321;
     --secondary-color: #000000;
+    --background-color: #eeeeee;
     --neutral-color: #ffffff;
     --tertiary-color: #808080;
 }
@@ -19,7 +20,7 @@
 }
 
 body {
-    background-color: var(--neutral-color);
+    background-color: var(--background-color);
 }
 
 .app-menu>ul>li ul {

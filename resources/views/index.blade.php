@@ -1,4 +1,7 @@
 @extends('layouts.enduser')
+@section('title')
+Beranda
+@endsection
 @section('content')
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
@@ -37,7 +40,7 @@
                 <div class="clearfix"></div>
 
                 <div class="items-carousel owl-carousel wow fadeIn mb-1">
-                    
+
                     @foreach($cars as $car)
                     <div class="col-lg-12">
                         <div class="de-item mb30">
@@ -74,7 +77,7 @@
                 <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for unforgettable journeys.</p>
 
                 <div class="items-carousel owl-carousel wow fadeIn mb-1">
-                    
+
                     @foreach($cars as $car)
                     <div class="col-lg-12">
                         <div class="de-item mb30">
@@ -104,9 +107,9 @@
                     @endforeach
 
                 </div>
-                
+
                 <div class="items-carousel owl-carousel wow fadeIn mb-1">
-                    
+
                     @foreach($cars as $car)
                     <div class="col-lg-12">
                         <div class="de-item mb30">
@@ -264,7 +267,7 @@
                     <p>Breaking news, fresh perspectives, and in-depth coverage - stay ahead with our latest news, insights, and analysis.</p>
                     <div class="spacer-20"></div>
                 </div>
-                
+
                 @foreach($articles as $article)
                 <div class="col-lg-4 mb10">
                     <div class="bloglist s2 item">
@@ -293,7 +296,8 @@
     <section id="section-fun-facts" class="bg-color text-light">
         <div class="container">
             <div class="quotes">
-                "Perjalanan yang baik akan memberikan memori dan <br> pengalaman yang tak terlupakan"
+                "A good trip will provide memories and <br>
+                an unforgettable experience"
                 <p>- Yaze Holidays -</p>
             </div>
         </div>
