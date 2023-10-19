@@ -12,7 +12,7 @@
     <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Yaze Holidays - Dashboard</title>
+    <title>Yaze Holidays | @yield('title')</title>
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,10 +27,6 @@
     <link href="{{ asset('css/dashboard/plugins/pace/pace.css') }}" rel="stylesheet" type="text/css" media="all">
     <link href="{{ asset('css/dashboard/css/custom.css') }}" rel="stylesheet" type="text/css" media="all">
     <link href="{{ asset('css/dashboard/plugins/dropzone/min/dropzone.min.css') }}" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/dashboard/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
-    <link href="../css/dashboard/plugins/pace/pace.css" rel="stylesheet">
-    <link href="../css/dashboard/css/custom.css" rel="stylesheet">
-    <link href="../css/dashboard/plugins/dropzone/min/dropzone.min.css" rel="stylesheet">
 
     <!-- Summernote -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -51,11 +47,11 @@
     </style>
 
     <!-- Theme Styles -->
-    <link href="../css/dashboard/css/main.min.css" rel="stylesheet">
-    <link href="../css/dashboard/css/custom.css" rel="stylesheet">
+    <link href="{{ asset('css/dashboard/css/main.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/dashboard/css/custom.css') }}" rel="stylesheet">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="../images/dashboard/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/dsahboard/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/dashboard/icon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/dsahboard/icon.ico" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
