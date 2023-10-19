@@ -7,6 +7,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CarController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\InformationController;
+use App\Http\Controllers\VersionController;
 use Illuminate\Contracts\Auth\SupportsBasicAuth;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
@@ -54,3 +55,5 @@ Route::post('/informations', [InformationController::class, 'store'])->name('inf
 Route::get('/informations/{information}/edit', [InformationController::class, 'edit'])->name('info.edit')->middleware('admin');
 Route::put('/informations/{information}', [InformationController::class, 'update'])->name('info.update')->middleware('admin');
 Route::delete('/informations/{information}', [InformationController::class, 'destroy'])->name('info.destroy')->middleware('admin');
+
+Route::get('/versions', [VersionController::class, 'index'])->name('version.index')->middleware('admin');
