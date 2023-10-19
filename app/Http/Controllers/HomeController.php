@@ -30,4 +30,8 @@ class HomeController extends Controller
 
         return view('index', compact('cars','articles'));
     }
+
+    public function curtain() {
+        return view('curtain');
+    }
 }
