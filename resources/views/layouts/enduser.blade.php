@@ -167,7 +167,7 @@
         <footer class="text-light">
             <div class="container">
                 <div class="row g-custom-x">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="widget">
                             <h5>Yaze Holidays</h5>
                             {!! $informations->description !!}
@@ -191,23 +191,32 @@
                         </div>
                     </div> -->
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="widget">
-                            <div class="widget">
-                                <h5>Social Network</h5>
-                                <div class="social-icons">
-                                    <a href="{{ $informations->facebook }}"><i class="fa fa-facebook fa-lg mb-3"></i></a> |  Facebook<br>
-                                    <a href="{{ $informations->instagram }}"><i class="fa fa-instagram fa-lg mb-3"></i> |  Instagram</a>
-                                    <!-- <a href="#"><i class="fa fa-twitter fa-lg"></i></a> -->
-                                    <!-- <a href="#"><i class="fa fa-linkedin fa-lg"></i></a> -->
-                                    <!-- <a href="#"><i class="fa fa-pinterest fa-lg"></i></a> -->
-                                    <!-- <a href="#"><i class="fa fa-rss fa-lg"></i></a> -->
+                            <h5>Social Network</h5>
+                            <div class="social-icons">
+                                <a href="{{ $informations->facebook }}"><i class="fa fa-facebook fa-lg mb-3"></i></a> | Facebook<br>
+                                <a href="{{ $informations->instagram }}"><i class="fa fa-instagram fa-lg mb-3"></i> | Instagram</a>
+                                <!-- <a href="#"><i class="fa fa-twitter fa-lg"></i></a> -->
+                                <!-- <a href="#"><i class="fa fa-linkedin fa-lg"></i></a> -->
+                                <!-- <a href="#"><i class="fa fa-pinterest fa-lg"></i></a> -->
+                                <!-- <a href="#"><i class="fa fa-rss fa-lg"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5>Google Maps</h5>
+                            <div class="col-lg-4">
+                                <div class="widget">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8880978821094!2d107.57534987034671!3d-6.903983252280009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e76ea2197b7b%3A0x83520de1be07f869!2sHusein%20Sastranegara%20International%20Airport%20(BDO)!5e0!3m2!1sen!2sid!4v1696050083430!5m2!1sen!2sid" width="225" height="155" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="widget">
                             <h5>Contact Info</h5>
                             <address class="s1">
@@ -216,12 +225,6 @@
                                 <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:yazeholidays@gmail.com">yazeholidays@gmail.com</a></span>
                                 <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
                             </address>
-                            <h5>Google Maps</h5>
-                            <div class="col-lg-4">
-                                <div class="widget">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8880978821094!2d107.57534987034671!3d-6.903983252280009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e76ea2197b7b%3A0x83520de1be07f869!2sHusein%20Sastranegara%20International%20Airport%20(BDO)!5e0!3m2!1sen!2sid!4v1696050083430!5m2!1sen!2sid" width="250" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
