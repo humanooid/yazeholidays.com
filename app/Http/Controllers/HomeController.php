@@ -7,6 +7,7 @@ use NumberFormatter;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Car;
 use App\Models\Article;
+use App\Models\Information;
 
 class HomeController extends Controller
 {
@@ -27,8 +28,9 @@ class HomeController extends Controller
         $imageFiles = Storage::files('public/images');
 
         $articles = Article::all();
+        $informations = Information::first();
 
-        return view('index', compact('cars','articles'));
+        return view('index', compact('cars','articles', 'informations'));
     }
 
     public function curtain() {

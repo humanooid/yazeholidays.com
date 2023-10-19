@@ -36,7 +36,7 @@
                 <div class="container">
                     <div class="topbar-left xs-hide">
                         <div class="topbar-widget">
-                            <div class="topbar-widget"><a href="#"><i class="fa fa-phone"></i>+62 812-2282-0130</a></div>
+                            <div class="topbar-widget"><a href="#"><i class="fa fa-phone"></i>+62 {{ $informations->contact_person }}</a></div>
                             <div class="topbar-widget"><a href="#"><i class="fa fa-envelope"></i>yazeholidays@gmail.com</a></div>
                             <div class="topbar-widget"><a href="#"><i class="fa fa-clock-o"></i>Mon - Fri 08.00 - 18.00</a></div>
                         </div>
@@ -170,8 +170,7 @@
                     <div class="col-lg-4">
                         <div class="widget">
                             <h5>Yaze Holidays</h5>
-                            <p>Kami adalah perusahaan travel yang melayani perjalanan domestik maupun internasional. </p>
-                            <p>Fasilitas yang kami tawarkan adalah rent car + driver, hotel dan tiket reservation, paket wisata dan ziarah, wedding, perjalanan dinas, drop airport.</p>
+                            {!! $informations->description !!}
                         </div>
                     </div>
 
@@ -197,8 +196,8 @@
                             <div class="widget">
                                 <h5>Social Network</h5>
                                 <div class="social-icons">
-                                    <a href="#"><i class="fa fa-facebook fa-lg mb-3"></i></a> |  Facebook<br>
-                                    <a href="#"><i class="fa fa-instagram fa-lg mb-3"></i> |  Instagram</a>
+                                    <a href="{{ $informations->facebook }}"><i class="fa fa-facebook fa-lg mb-3"></i></a> |  Facebook<br>
+                                    <a href="{{ $informations->instagram }}"><i class="fa fa-instagram fa-lg mb-3"></i> |  Instagram</a>
                                     <!-- <a href="#"><i class="fa fa-twitter fa-lg"></i></a> -->
                                     <!-- <a href="#"><i class="fa fa-linkedin fa-lg"></i></a> -->
                                     <!-- <a href="#"><i class="fa fa-pinterest fa-lg"></i></a> -->
@@ -212,8 +211,8 @@
                         <div class="widget">
                             <h5>Contact Info</h5>
                             <address class="s1">
-                                <span><i class="id-color fa fa-map-marker fa-lg"></i>Husein Sastranegara, Bandung Satu,<br> Jawa Barat, Indonesia, 40174</span>
-                                <span><i class="id-color fa fa-phone fa-lg"></i>+62 812-2282-0130</span>
+                                <span><i class="id-color fa fa-map-marker fa-lg"></i>{{ $informations->address }}</span>
+                                <span><i class="id-color fa fa-phone fa-lg"></i>+62 {{ $informations->contact_person }}</span>
                                 <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:yazeholidays@gmail.com">yazeholidays@gmail.com</a></span>
                                 <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
                             </address>
