@@ -12,6 +12,7 @@ Articles
                 <div class="col">
                     <div class="page-description">
                         <h1>Articles</h1>
+                        <span>Halaman ini merupakan halaman untuk mengelola Artikel, Anda dapat menambahkan, mengubah, bahkan menghapus artikel sesuai keinginan Anda</span>
                     </div>
                 </div>
             </div>

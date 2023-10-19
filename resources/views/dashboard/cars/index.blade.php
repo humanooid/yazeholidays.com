@@ -12,6 +12,7 @@ Cars
                 <div class="col">
                     <div class="page-description">
                         <h1>Cars List</h1>
+                        <span>Halaman ini merupakan halaman untuk mengelola list mobil rental Anda, Anda dapat menambahkan, mengubah, bahkan menghapus list mobil sesuai keinginan Anda</span>
                     </div>
                 </div>
             </div>

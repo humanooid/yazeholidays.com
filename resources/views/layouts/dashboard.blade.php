@@ -76,13 +76,13 @@
             </div>
             <div class="app-menu">
                 <ul class="accordion-menu">
-                    <!-- <li class="sidebar-title">
+                    <li class="sidebar-title">
                         Apps
                     </li>
 
                     <li class="{{ Request::is('dashboard') ? 'active-page' : '' }}">
                         <a href="/dashboard"><i class="material-icons-two-tone">space_dashboard</i>Dashboard</a>
-                    </li> -->
+                    </li>
 
                     <li class="sidebar-title">
                         Menus
@@ -122,6 +122,10 @@
 
                     <li class="{{ Request::is('informations') ? 'active-page' : '' }}">
                         <a href="/informations"><i class="material-icons-two-tone">info</i>Information</a>
+                    </li>
+                    
+                    <li class="{{ Request::is('order') ? 'active-page' : '' }}">
+                        <a href="/order"><i class="material-icons-two-tone">notifications_active</i>Booking Order</a>
                     </li>
 
                     <li class="sidebar-title">
