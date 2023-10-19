@@ -76,3 +76,8 @@ img[class="car_photo"] {
 .form-control::-webkit-input-placeholder {
     color: #ffffff;
 }
+
+.post-image img {
+    height: 230px;
+    object-fit: cover;
+}
