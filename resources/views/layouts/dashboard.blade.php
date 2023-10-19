@@ -88,9 +88,9 @@
                         Menus
                     </li>
 
-                    <li class="{{ Request::is('slider') ? 'active-page' : '' }}">
+                    <!-- <li class="{{ Request::is('slider') ? 'active-page' : '' }}">
                         <a href="/slider"><i class="material-icons-two-tone">color_lens</i>Appearance</a>
-                    </li>
+                    </li> -->
 
                     <li class="{{ Request::is('cars') ? 'active-page' : '' }}">
                         <a href="/cars"><i class="material-icons-two-tone">directions_car</i>Cars</a>
@@ -116,9 +116,9 @@
                         <a href="/articles"><i class="material-icons-two-tone">feed</i>Articles</a>
                     </li>
 
-                    <li class="{{ Request::is('testimonials') ? 'active-page' : '' }}">
+                    <!-- <li class="{{ Request::is('testimonials') ? 'active-page' : '' }}">
                         <a href="/testimonials"><i class="material-icons-two-tone">reviews</i>Testimonials</a>
-                    </li>
+                    </li> -->
 
                     <li class="{{ Request::is('informations') ? 'active-page' : '' }}">
                         <a href="/informations"><i class="material-icons-two-tone">info</i>Information</a>
