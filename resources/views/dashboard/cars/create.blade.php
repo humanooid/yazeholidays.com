@@ -48,6 +48,14 @@ Ubah Mobil
                         <div class="col-4">
                             <div class="card">
                                 <div class="card-body">
+                                    <label for="country" class="form-label">Pilih Negara</label>
+                                    <div class="input-group mb-3">
+                                        <select id="country" class="form-select" name="country">
+                                            <option value="Malaysia">Malaysia</option>
+                                            <option value="Indonesia">Indonesia</option>
+                                        </select>
+                                    </div>
+
                                     <label for="basic-url" class="form-label">Harga</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text">Rp.</span>
@@ -79,7 +87,7 @@ Ubah Mobil
 
                                     <label for="door" class="form-label">Jumlah Pintu</label>
                                     <div class="input-group mb-3">
-                                        <input type="number" step="0.01" id="door" class="form-control" name="door"  aria-label="Jumlah Pintu" placeholder="Masukkan jumlah pintu disini !">
+                                        <input type="number" step="0.01" id="door" class="form-control" name="door" aria-label="Jumlah Pintu" placeholder="Masukkan jumlah pintu disini !">
                                     </div>
 
                                     <label for="type" class="form-label">Type Mobil</label>

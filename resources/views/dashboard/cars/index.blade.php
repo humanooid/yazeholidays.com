@@ -40,12 +40,11 @@ Cars
                                 <thead>
                                     <tr>
                                         <th>Nama Mobil</th>
-                                        <th>Spesiikasi</th>
+                                        <th>Spesifikasi</th>
                                         <th>Harga</th>
+                                        <th>Negara</th>
                                         <th>Gambar</th>
-                                        <th>Jumlah Penumpang</th>
-                                        <th>Jumlah Bagasi</th>
-                                        <th>Jumlah Pintu</th>
+                                        <th>Jumlah Penumpang-Bagasi-Pintu</th>
                                         <th>Type</th>
                                         <th>Aksi</th>
                                     </tr>
@@ -56,6 +55,7 @@ Cars
                                         <td>{{ $car->car_name }}</td>
                                         <td>{{ strip_tags($car->specification) }}</td>
                                         <td>{{ $car->formattedPrice }}</td>
+                                        <td>{{ $car->country }}</td>
                                         <td>
                                             @if ($car->image)
                                             <img src="{{ asset('storage/images/' . $car->image) }}" alt="car Image" style="width: 70px; height: 110px; object-fit:cover">
@@ -63,9 +63,7 @@ Cars
                                             No image available.
                                             @endif
                                         </td>
-                                        <td>{{ $car->passenger }}</td>
-                                        <td>{{ $car->baggage }}</td>
-                                        <td>{{ $car->door }}</td>
+                                        <td>{{ $car->passenger }} - {{ $car->baggage }} - {{ $car->door }}</td>
                                         <td>{{ $car->type }}</td>
                                         <td>
                                             <a href="{{ route('cars.show', $car) }}">

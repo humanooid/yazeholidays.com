@@ -49,6 +49,14 @@ Ubah Mobil
                         <div class="col-4">
                             <div class="card">
                                 <div class="card-body">
+                                    <label for="country" class="form-label">Pilih Negara</label>
+                                    <div class="input-group mb-3">
+                                        <select id="country" class="form-select" name="country">
+                                            <option value="Malaysia">Malaysia</option>
+                                            <option value="Indonesia">Indonesia</option>
+                                        </select>
+                                    </div>
+
                                     <label for="basic-url" class="form-label">Harga</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text">Rp.</span>

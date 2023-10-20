@@ -38,6 +38,7 @@ class CarController extends Controller
             'car_name' => 'required',
             'specification' => 'required',
             'price' => 'required|numeric|digits_between:1,10',
+            'country' => 'required',
             // 'image' => 'image|mimes:jpeg,png,jpg|max:2048',
         ]);
 
@@ -54,6 +55,7 @@ class CarController extends Controller
             'car_name' => $request->car_name,
             'specification' => $request->specification,
             'price' => $request->price,
+            'country' => $request->country,
             'image' => $imageFileName,
             'passenger' => $request->passenger,
             'baggage' => $request->baggage,
@@ -105,6 +107,7 @@ class CarController extends Controller
         $car->update([
             'car_name' => $request->car_name,
             'specification' => $request->specification,
+            'country' => $request->country,
             'price' => $request->price,
             'passenger' => $request->passenger,
             'baggage' => $request->baggage,
