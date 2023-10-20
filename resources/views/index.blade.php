@@ -6,7 +6,7 @@ Beranda
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
     <div id="top"></div>
-    <section id="section-hero" aria-label="section" class="full-height vertical-center" data-bgimage="url(images/background/7.jpg) bottom">
+    <section id="section-hero" aria-label="section" class="full-height vertical-center">
         <div class="container">
             <div class="row align-items-center">
                 <div class="spacer-double sm-hide"></div>
@@ -88,7 +88,7 @@ Beranda
                                 <div class="d-text">
                                     <h4>{{ $car->car_name }}</h4>
                                     <div class="d-item_like">
-                                        <i class="fa fa-heart"></i><span>74</span>
+                                        <!-- <i class="fa fa-heart"></i><span>74</span> -->
                                     </div>
                                     <div class="d-atr-group">
                                         <span class="d-atr"><img src="images/icons/1.svg" alt="">5</span>
@@ -120,7 +120,7 @@ Beranda
                                 <div class="d-text">
                                     <h4>{{ $car->car_name }}</h4>
                                     <div class="d-item_like">
-                                        <i class="fa fa-heart"></i><span>74</span>
+                                        <!-- <i class="fa fa-heart"></i><span>74</span> -->
                                     </div>
                                     <div class="d-atr-group">
                                         <span class="d-atr"><img src="images/icons/1.svg" alt="">5</span>
@@ -307,11 +307,11 @@ Beranda
         <div class="wow fadeInRight d-flex">
             <div class="de-marquee-list">
                 <div class="d-item">
-                    <span class="d-item-txt">SUV</span>
+                    <span class="d-item-txt">Hiace</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Hatchback</span>
+                    <span class="d-item-txt">Travel</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
@@ -323,35 +323,35 @@ Beranda
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Sedan</span>
+                    <span class="d-item-txt">Avanza</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Sports Car</span>
+                    <span class="d-item-txt">Touring</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Coupe</span>
+                    <span class="d-item-txt">Innova</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Minivan</span>
+                    <span class="d-item-txt">Snacks</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Station Wagon</span>
+                    <span class="d-item-txt">Paradise</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Pickup Truck</span>
+                    <span class="d-item-txt">Sea</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Minivans</span>
+                    <span class="d-item-txt">Mountain</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Exotic Cars</span>
+                    <span class="d-item-txt">Historical Buildings</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
@@ -360,11 +360,11 @@ Beranda
 
             <div class="de-marquee-list">
                 <div class="d-item">
-                    <span class="d-item-txt">SUV</span>
+                <span class="d-item-txt">Hiace</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Hatchback</span>
+                    <span class="d-item-txt">Travel</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
@@ -376,35 +376,35 @@ Beranda
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Sedan</span>
+                    <span class="d-item-txt">Avanza</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Sports Car</span>
+                    <span class="d-item-txt">Touring</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Coupe</span>
+                    <span class="d-item-txt">Innova</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Minivan</span>
+                    <span class="d-item-txt">Snacks</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Station Wagon</span>
+                    <span class="d-item-txt">Paradise</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Pickup Truck</span>
+                    <span class="d-item-txt">Sea</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Minivans</span>
+                    <span class="d-item-txt">Mountain</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
-                    <span class="d-item-txt">Exotic Cars</span>
+                    <span class="d-item-txt">Historical Buildings</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>

@@ -9,7 +9,31 @@ header.header-light .logo-2 {
     width: 70px
 }
 
-@media (max-width: 480px) {
+/* Default styles for the section */
+#section-hero {
+    background-image: url(../../images/background/7.jpg);
+    /* Atur gaya latar belakang default di sini */
+}
+
+/* Media query untuk resolusi layar di bawah 414 piksel */
+@media (max-width: 414px) {
+    #section-hero {
+        background-image: none; /* Menghapus gambar latar belakang */
+        /* Atau Anda juga bisa menggunakan 'display: none;' untuk menyembunyikan seluruh section jika diperlukan */
+    }
+
+    #section-hero img[class=img-fluid] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #content section:first-of-type {
+        padding-top: 114px;
+    }
+} 
+
+/* @media (max-width: 480px) {
     #content section:first-of-type{
         display: none;
     }
@@ -35,7 +59,7 @@ header.header-light .logo-2 {
     #section-img-with-tab {
         display: none;
     }
-}    
+}     */
 
 .quotes {
     font-family: 'Kalam', sans-serif;
