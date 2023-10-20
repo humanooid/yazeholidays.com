@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('car_name');
             $table->text('specification');
+            $table->string('country');
             $table->decimal('price', 12, 2);
             $table->timestamps();
             $table->string('image')->nullable();
