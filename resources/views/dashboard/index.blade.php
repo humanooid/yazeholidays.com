@@ -1,6 +1,7 @@
 @extends('layouts.dashboard')
 
-@section('meta')
+@section('title')
+Dashboard
 @endsection
 
 @section('content')
@@ -14,7 +15,6 @@
                     </div>
                 </div>
             </div>
-            <!--  -->
         </div>
     </div>
 </div>

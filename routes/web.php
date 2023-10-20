@@ -22,8 +22,8 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-Route::get('/home', [HomeController::class, 'index'])->name('home.index');
-Route::get('/', [HomeController::class, 'curtain'])->name('home.curtain');
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+// Route::get('/', [HomeController::class, 'curtain'])->name('home.curtain');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin')->middleware('admin');
 
