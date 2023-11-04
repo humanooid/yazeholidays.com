@@ -1,4 +1,7 @@
 @extends('layouts.secondary')
+@section('title')
+Login
+@endsection
 @section('content')
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">

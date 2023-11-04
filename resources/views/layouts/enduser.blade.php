@@ -64,7 +64,10 @@
                                     <div id="logo">
                                         <a href="/home">
                                             <img class="logo-1" src="images/logo-light.png" alt="">
-                                            <img class="logo-2" src="images/logo.png" alt="">
+                                            <div class="d-flex align-items-center">
+                                                <img class="logo-2" src="images/logo.png" alt="">
+                                                <h4 class="m-1"> | Yaze Holidays</h4>
+                                            </div>
                                         </a>
                                     </div>
                                     <!-- logo close -->

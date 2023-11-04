@@ -6,7 +6,7 @@
 }
 
 header.header-light .logo-2 {
-    width: 70px
+    width: 58px
 }
 
 /* Default styles for the section */
@@ -16,7 +16,7 @@ header.header-light .logo-2 {
 }
 
 /* Media query untuk resolusi layar di bawah 414 piksel */
-@media (max-width: 414px) {
+@media (max-width: 922px) {
     #section-hero {
         background-image: none; /* Menghapus gambar latar belakang */
         /* Atau Anda juga bisa menggunakan 'display: none;' untuk menyembunyikan seluruh section jika diperlukan */
