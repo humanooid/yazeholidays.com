@@ -1,5 +1,9 @@
 @extends('layouts.dashboard')
 
+@section('title')
+Tambah Artikel
+@endsection
+
 @section('content')
 <div class="app-content">
     <div class="content-wrapper">

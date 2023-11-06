@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('title')
-Ubah Mobil
+Tambah Data Mobil
 @endsection
 
 @section('content')
@@ -14,7 +14,7 @@ Ubah Mobil
                 <div class="row">
                     <div class="col">
                         <div class="page-description">
-                            <h1>Ubah Data Mobil</h1>
+                            <h1>Tambah Data Mobil</h1>
                         </div>
                     </div>
                 </div>

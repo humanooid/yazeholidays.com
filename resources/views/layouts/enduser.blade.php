@@ -75,7 +75,7 @@
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="/home">Home</a>
+                                    <li><a class="menu-item" href="/home">Company Profile</a>
                                         <!-- <ul>
                                             <li><a class="menu-item" href="index.html">Homepage 1</a></li>
                                             <li><a class="menu-item" href="index-2.html">Homepage 2</a></li>

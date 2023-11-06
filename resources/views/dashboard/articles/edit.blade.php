@@ -1,5 +1,9 @@
 @extends('layouts.dashboard')
 
+@section('title')
+Ubah Artikel
+@endsection
+
 @section('content')
 <div class="app-content">
     <div class="content-wrapper">
@@ -8,7 +12,7 @@
             <div class="row">
                 <div class="col">
                     <div class="page-description">
-                        <h1>Tambah Artikel</h1>
+                        <h1>Ubah Artikel</h1>
                     </div>
                 </div>
             </div>
