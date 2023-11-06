@@ -91,10 +91,10 @@ Beranda
                                         <!-- <i class="fa fa-heart"></i><span>74</span> -->
                                     </div>
                                     <div class="d-atr-group">
-                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">5</span>
-                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">2</span>
-                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">4</span>
-                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">SUV</span>
+                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">{{ $car->passenger }}</span>
+                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">{{ $car->baggage }}</span>
+                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">{{ $car->door }}</span>
+                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">{{ $car->type }}</span>
                                     </div>
                                     <div class="d-price">
                                         Daily rate from <span>{{ $car->formattedPrice }}</span>
@@ -123,10 +123,10 @@ Beranda
                                         <!-- <i class="fa fa-heart"></i><span>74</span> -->
                                     </div>
                                     <div class="d-atr-group">
-                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">5</span>
-                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">2</span>
-                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">4</span>
-                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">SUV</span>
+                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">{{ $car->passenger }}</span>
+                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">{{ $car->baggage }}</span>
+                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">{{ $car->door }}</span>
+                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">{{ $car->type }}</span>
                                     </div>
                                     <div class="d-price">
                                         Daily rate from <span>{{ $car->formattedPrice }}</span>

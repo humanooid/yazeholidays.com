@@ -1,6 +1,7 @@
 @extends('layouts.dashboard')
 
-@section('meta')
+@section('title')
+Information
 @endsection
 
 @section('content')

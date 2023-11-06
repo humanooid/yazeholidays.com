@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
-@section('meta')
-
+@section('title')
+Car View
 @endsection
 
 @section('content')
