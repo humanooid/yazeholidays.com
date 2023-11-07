@@ -8,8 +8,6 @@ use App\Http\Controllers\CarController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\InformationController;
 use App\Http\Controllers\VersionController;
-use Illuminate\Contracts\Auth\SupportsBasicAuth;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +21,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/company-profile', [HomeController::class, 'profile'])->name('home.profile');
 // Route::get('/', [HomeController::class, 'curtain'])->name('home.curtain');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin')->middleware('admin');

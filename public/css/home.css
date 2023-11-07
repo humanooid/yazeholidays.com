@@ -29,7 +29,12 @@ header.header-light .logo-2 {
 
 @media only screen and (max-width: 992px) {
     #content section:first-of-type {
-        padding-top: 114px;
+        padding-top: 145px;
+    }
+
+    h1, .h1 {
+        font-size: 47px;
+        line-height: 46px;
     }
 } 
 
@@ -104,4 +109,62 @@ img[class="car_photo"] {
 .post-image img {
     height: 230px;
     object-fit: cover;
+}
+
+/* Rotating-word-css  */
+.words-wrapper{
+    box-sizing: content-box;
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    margin-top: 15px;
+}
+.words{
+    overflow: hidden;
+    margin-left: 15px;
+    background-color: var(--neutral-color);
+    border-radius: 5px;
+}
+.words-wrapper .words span{
+    display: block;
+    height: 100%;
+    color: var(--primary-color);
+    animation: spin_words 5s infinite;
+    font-weight: 600;
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+/* end-rotating-words */
+
+.menu_side_area {
+    margin-left: 90px;
+}
+
+a.btn-main, a.btn-main:active, a.btn-main:focus, a.btn-main:visited, .btn-main, input[type=button].btn-main, a.btn-line, #mainmenu li ul.mega a.btn-main {
+    padding: 7px 15px !important;
+    border-radius: 5px;
 }
