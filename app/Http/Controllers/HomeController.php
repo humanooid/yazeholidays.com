@@ -33,6 +33,12 @@ class HomeController extends Controller
         return view('index', compact('cars','articles', 'informations'));
     }
 
+    public function profile() {
+        $informations = Information::first();
+
+        return view('profile', compact('informations'));
+    }
+
     public function curtain() {
         return view('curtain');
     }

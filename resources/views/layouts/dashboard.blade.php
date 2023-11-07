@@ -123,7 +123,7 @@
                     <li class="{{ Request::is('informations') ? 'active-page' : '' }}">
                         <a href="/informations"><i class="material-icons-two-tone">info</i>Information</a>
                     </li>
-                    
+
                     <li class="{{ Request::is('order') ? 'active-page' : '' }}">
                         <a href="/order"><i class="material-icons-two-tone">notifications_active</i>Booking Order</a>
                     </li>
@@ -164,76 +164,16 @@
                                     <div class="dropdown-menu dropdown-menu-end notifications-dropdown" aria-labelledby="notificationsDropDown">
                                         <h6 class="dropdown-header">Notifications</h6>
                                         <div class="notifications-dropdown-list">
-                                            <a href="#">
+                                            <a href="">
                                                 <div class="notifications-dropdown-item">
                                                     <div class="notifications-dropdown-item-image">
-                                                        <span class="notifications-badge bg-info text-white">
-                                                            <i class="material-icons-outlined">campaign</i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="notifications-dropdown-item-text">
-                                                        <p class="bold-notifications-text">Donec tempus nisi sed erat vestibulum, eu suscipit ex laoreet</p>
-                                                        <small>19:00</small>
+                                                        <form action="{{ route('actionlogout') }}" method="GET">
+                                                            @csrf
+                                                            <button class="btn btn-danger" type="submit">Logout</button>
+                                                        </form>
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="#">
-                                                <div class="notifications-dropdown-item">
-                                                    <div class="notifications-dropdown-item-image">
-                                                        <span class="notifications-badge bg-danger text-white">
-                                                            <i class="material-icons-outlined">bolt</i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="notifications-dropdown-item-text">
-                                                        <p class="bold-notifications-text">Quisque ligula dui, tincidunt nec pharetra eu, fringilla quis mauris</p>
-                                                        <small>18:00</small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notifications-dropdown-item">
-                                                    <div class="notifications-dropdown-item-image">
-                                                        <span class="notifications-badge bg-success text-white">
-                                                            <i class="material-icons-outlined">alternate_email</i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="notifications-dropdown-item-text">
-                                                        <p>Nulla id libero mattis justo euismod congue in et metus</p>
-                                                        <small>yesterday</small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notifications-dropdown-item">
-                                                    <div class="notifications-dropdown-item-image">
-                                                        <span class="notifications-badge">
-                                                            <img src="../images/dashboard/avatars/avatar.png" alt="">
-                                                        </span>
-                                                    </div>
-                                                    <div class="notifications-dropdown-item-text">
-                                                        <p>Praesent sodales lobortis velit ac pellentesque</p>
-                                                        <small>yesterday</small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notifications-dropdown-item">
-                                                    <div class="notifications-dropdown-item-image">
-                                                        <span class="notifications-badge">
-                                                            <img src="../images/dashboard/avatars/avatar.png" alt="">
-                                                        </span>
-                                                    </div>
-                                                    <div class="notifications-dropdown-item-text">
-                                                        <p>Praesent lacinia ante eget tristique mattis. Nam sollicitudin velit sit amet auctor porta</p>
-                                                        <small>yesterday</small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <hr>
-                                            <form action="{{ route('actionlogout') }}" method="GET" class="px-3">
-                                                @csrf
-                                                <button class="btn btn-danger" type="submit">Logout</button>
-                                            </form>
                                         </div>
                                     </div>
                                 </li>

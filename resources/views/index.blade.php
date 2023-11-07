@@ -11,12 +11,24 @@ Beranda
             <div class="row align-items-center">
                 <div class="spacer-double sm-hide"></div>
                 <div class="col-lg-6">
-                    <h4><span class="id-color">Plan your trip now</span></h4>
+                    <h4><span class="id-color">| Rencanakan Liburan</span></h4>
                     <div class="spacer-10"></div>
-                    <h1><span class="headline">Explore</span> the world with comfortable car</h1>
-                    <p class="lead">Embark on unforgettable adventures and discover the world in unparalleled comfort and style with our fleet of exceptionally comfortable cars.</p>
-                
-                    <a class="nav-link btn-main" href="#section-cars">Choose a Car</a>&nbsp;&nbsp;&nbsp;
+                    <h1>Jelajahi dunia,
+                        <div class="words-wrapper">
+                            dengan
+                            <div class="words">
+                                <span>sahabat</span>
+                                <span>teman</span>
+                                <span>keluarga</span>
+                                <span>kerabat</span>
+                                <span>kolega</span>
+                            </div>
+                        </div>
+                    </h1>
+
+                    <p class="lead">Yaze Holidays melayani rental mobil, paket trip, liburan keluarga domestic & internasional. Layanan yang kami sediakan : Rental Mobil + Pengemudi, Wedding, Airport Drop, Hotel Reservation</p>
+
+                    <a class="nav-link btn-main" href="#section-cars">Booking sekarang</a>&nbsp;&nbsp;&nbsp;
                     <!-- <a class="btn-main btn-black" href="#">Get the App</a> -->
                 </div>
 
@@ -61,7 +73,7 @@ Beranda
                                     </div>
                                     <div class="d-price">
                                         Daily rate from <span>{{ $car->formattedPrice }}</span>
-                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rent Now</a>
+                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rental</a>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +110,7 @@ Beranda
                                     </div>
                                     <div class="d-price">
                                         Daily rate from <span>{{ $car->formattedPrice }}</span>
-                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rent Now</a>
+                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rental</a>
                                     </div>
                                 </div>
                             </div>
@@ -360,7 +372,7 @@ Beranda
 
             <div class="de-marquee-list">
                 <div class="d-item">
-                <span class="d-item-txt">Hiace</span>
+                    <span class="d-item-txt">Hiace</span>
                     <span class="d-item-display">
                         <i class="d-item-dot"></i>
                     </span>
