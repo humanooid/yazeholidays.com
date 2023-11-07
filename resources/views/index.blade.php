@@ -11,7 +11,10 @@ Beranda
             <div class="row align-items-center">
                 <div class="spacer-double sm-hide"></div>
                 <div class="col-lg-6">
-                    <h4><span class="id-color">| Rencanakan Liburan</span></h4>
+                    <h4><span class="id-color">Yaze Holidays | Rencanakan Liburan</span></h4>
+                    <a href="whatsapp://send?text=Hallo admin !, saya ingin bertanya mengenai rental mobil yang ada di website https://yazeholidays.com/&phone=+6281222802130">
+                        <img class="whatsapp-icon" src="images/whatsapp.png" alt="" style="position:fixed; width: 70px; bottom:0px; right:0px; margin-right: 50px; margin-bottom: 60px; z-index: 99">
+                    </a>
                     <div class="spacer-10"></div>
                     <h1>Jelajahi dunia,
                         <div class="words-wrapper">
@@ -44,8 +47,8 @@ Beranda
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 text-center">
-                    <h2>Our Vehicle Favourite Fleet</h2>
-                    <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for unforgettable journeys.</p>
+                    <h2>Armada yang kami miliki</h2>
+                    <p>Mewujudkan impian Anda dengan armada kendaraan serbaguna yang luar biasa untuk perjalanan tak terlupakan.</p>
                     <div class="spacer-20"></div>
                 </div>
 
@@ -80,78 +83,97 @@ Beranda
                         </div>
                     </div>
                     @endforeach
-
                 </div>
 
                 <hr>
 
-                <h3 class="mt-1">Various Kinds of Our Fleet</h3>
-                <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for unforgettable journeys.</p>
+            </div>
+        </div>
+    </section>
 
-                <div class="items-carousel owl-carousel wow fadeIn mb-1">
+    <section id="services" class="no-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <h2>Layanan kami</h2>
+                    <p>Beberapa layanan yang kami sediakan diantaranya adalah : </p>
 
-                    @foreach($cars as $car)
-                    <div class="col-lg-12">
-                        <div class="de-item mb30">
-                            <div class="d-img">
-                                <img class="car_photo" src="{{ asset('storage/images/' . $car->image) }}" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images_1.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
+                                        <div class="title">
+                                            Sewa Transportasi Bandung - Jakarta PP
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="d-info">
-                                <div class="d-text">
-                                    <h4>{{ $car->car_name }}</h4>
-                                    <div class="d-item_like">
-                                        <!-- <i class="fa fa-heart"></i><span>74</span> -->
-                                    </div>
-                                    <div class="d-atr-group">
-                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">{{ $car->passenger }}</span>
-                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">{{ $car->baggage }}</span>
-                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">{{ $car->door }}</span>
-                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">{{ $car->type }}</span>
-                                    </div>
-                                    <div class="d-price">
-                                        Daily rate from <span>{{ $car->formattedPrice }}</span>
-                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rental</a>
-                                    </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images_2.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
+                                        <div class="title">
+                                            Drop Bandung - Airport Soetta & Drop Airport Soetta - Bandung
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
+                                        <div class="title">
+                                            Sewa Transportasi City Tour Bandung, Jakarta
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images_4.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
+                                        <div class="title">
+                                            Sewa Transportasi Bandung - Pangandaran, Jogja,
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images_5.jpg" alt="" style="width: 150px; height:100px; object-fit:cover; border-radius: 5px;">
+                                        <div class="title">
+                                            Drop Bandung - Bandara Kertajati
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="">
+                                        <img src="images/services/images_6.jpg" alt="" style="width: 150px; height:100px; object-fit:cover;">
+                                        <div class="title">
+                                            Drop Bandara Kertajati - Bandung
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    @endforeach
 
                 </div>
-
-                <div class="items-carousel owl-carousel wow fadeIn mb-1">
-
-                    @foreach($cars as $car)
-                    <div class="col-lg-12">
-                        <div class="de-item mb30">
-                            <div class="d-img">
-                                <img class="car_photo" src="{{ asset('storage/images/' . $car->image) }}" class="img-fluid" alt="">
-                            </div>
-                            <div class="d-info">
-                                <div class="d-text">
-                                    <h4>{{ $car->car_name }}</h4>
-                                    <div class="d-item_like">
-                                        <!-- <i class="fa fa-heart"></i><span>74</span> -->
-                                    </div>
-                                    <div class="d-atr-group">
-                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">{{ $car->passenger }}</span>
-                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">{{ $car->baggage }}</span>
-                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">{{ $car->door }}</span>
-                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">{{ $car->type }}</span>
-                                    </div>
-                                    <div class="d-price">
-                                        Daily rate from <span>{{ $car->formattedPrice }}</span>
-                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rent Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-
-                </div>
-
             </div>
         </div>
     </section>
@@ -198,23 +220,23 @@ Beranda
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <h2>Explore the world with comfortable car</h2>
+                    <h2>Jelajahi dunia dengan mobil yang nyaman</h2>
                     <div class="spacer-20"></div>
                 </div>
                 <div class="col-md-3">
                     <i class="fa fa-trophy de-icon mb20"></i>
-                    <h4>First Class Services</h4>
-                    <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
+                    <h4>Layanan 24 Jam</h4>
+                    <p>Demi memaksimalkan layanan bagi pelanggan, jadwal kami buka hingga 24 jam.</p>
                 </div>
                 <div class="col-md-3">
                     <i class="fa fa-road de-icon mb20"></i>
-                    <h4>24/7 road assistance</h4>
-                    <p>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                    <h4>Harga Terbaik</h4>
+                    <p>Demi kepuasan pelanggan, maka kami memberikan harga terbaik bagi Anda.</p>
                 </div>
                 <div class="col-md-3">
                     <i class="fa fa-map-pin de-icon mb20"></i>
-                    <h4>Free Pick-Up & Drop-Off</h4>
-                    <p>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                    <h4>Rekomendasi Tempat Wisata Terbaik</h4>
+                    <p>Kami merekomendasikan tempat wisata terbaik bagi Anda, dan wajib dikunjungi tiap hari nya.</p>
                 </div>
             </div>
         </div>
@@ -275,8 +297,8 @@ Beranda
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 text-center">
-                    <h2>Latest News</h2>
-                    <p>Breaking news, fresh perspectives, and in-depth coverage - stay ahead with our latest news, insights, and analysis.</p>
+                    <h2>Kabar Tebaru</h2>
+                    <p>Berita terkini, perspektif segar, dan liputan mendalam - terus ikuti berita, wawasan, dan analisis terbaru kami.</p>
                     <div class="spacer-20"></div>
                 </div>
 
