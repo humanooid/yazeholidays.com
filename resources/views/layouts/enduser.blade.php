@@ -75,7 +75,7 @@
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="/company-profilea">Company Profile</a>
+                                    <li class="nav-item"><a class="nav-link menu-item" href="#services">Layanan Kami</a>
                                         <!-- <ul>
                                             <li><a class="menu-item" href="index.html">Homepage 1</a></li>
                                             <li><a class="menu-item" href="index-2.html">Homepage 2</a></li>
