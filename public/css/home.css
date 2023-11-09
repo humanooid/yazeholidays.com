@@ -5,8 +5,19 @@
     --tertiary-color: #808080;
 }
 
+.one-line-group {
+    overflow: hidden;
+}
+
+.one-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
+
 header.header-light .logo-2 {
-    width: 77px
+    width: 65px
 }
 
 /* Default styles for the section */
@@ -24,6 +35,12 @@ header.header-light .logo-2 {
 
     #section-hero img[class=img-fluid] {
         display: none;
+    }
+
+    .whatsapp-icon {
+        width: 65px !important;
+        margin-right: 22px !important;
+        margin-bottom: 30px !important;
     }
 }
 

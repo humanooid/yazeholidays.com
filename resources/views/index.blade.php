@@ -6,11 +6,13 @@ Beranda
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
     <div id="top"></div>
+
     <section id="section-hero" aria-label="section" class="full-height vertical-center">
         <div class="container">
             <div class="row align-items-center">
                 <div class="spacer-double sm-hide"></div>
                 <div class="col-lg-6">
+                    <img src="images/logo.png" alt="" style="width: 100px" class="mb-1">
                     <h4><span class="id-color">Yaze Holidays | Rencanakan Liburan</span></h4>
                     <a href="whatsapp://send?text=Hallo admin !, saya ingin bertanya mengenai rental mobil yang ada di website https://yazeholidays.com/&phone=+6281222802130">
                         <img class="whatsapp-icon" src="images/whatsapp.png" alt="" style="position:fixed; width: 70px; bottom:0px; right:0px; margin-right: 50px; margin-bottom: 60px; z-index: 99">
@@ -43,7 +45,7 @@ Beranda
         </div>
     </section>
 
-    <section id="section-cars" class="no-top">
+    <section id="section-cars" class="no-top no-bottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 text-center">
@@ -94,7 +96,7 @@ Beranda
     <section id="services" class="no-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 offset-lg-3 text-center">
+                <div class="text-center">
                     <h2>Layanan kami</h2>
                     <p>Beberapa layanan yang kami sediakan diantaranya adalah : </p>
 
@@ -102,72 +104,60 @@ Beranda
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images_1.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
-                                        <div class="title">
-                                            Sewa Transportasi Bandung - Jakarta PP
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images_1.jpg" alt="" style="width: 285px; height:185px; object-fit: cover; border-radius: 5px;">
+                                    <div class="card-title p-3">
+                                        Sewa Transportasi Bandung - Jakarta PP
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images_2.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
-                                        <div class="title">
-                                            Drop Bandung - Airport Soetta & Drop Airport Soetta - Bandung
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images_2.jpg" alt="" style="width: 285px; height:185px; object-fit: cover; border-radius: 5px;">
+                                    <div class="card-title p-3">
+                                        Drop Bandung - Airport Soetta & Drop Airport Soetta - Bandung
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
-                                        <div class="title">
-                                            Sewa Transportasi City Tour Bandung, Jakarta
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images.jpg" alt="" style="width: 285px; height:185px; object-fit: cover; border-radius: 5px;">
+                                    <div class="title p-3">
+                                        Sewa Transportasi City Tour Bandung, Jakarta
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images_4.jpg" alt="" style="width: 150px; height:100px; object-fit: cover; border-radius: 5px;">
-                                        <div class="title">
-                                            Sewa Transportasi Bandung - Pangandaran, Jogja,
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images_4.jpg" alt="" style="width: 285px; height:185px; object-fit: cover; border-radius: 5px;">
+                                    <div class="title p-3">
+                                        Sewa Transportasi Bandung - Pangandaran, Jogja,
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images_5.jpg" alt="" style="width: 150px; height:100px; object-fit:cover; border-radius: 5px;">
-                                        <div class="title">
-                                            Drop Bandung - Bandara Kertajati
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images_5.jpg" alt="" style="width: 285px; height:185px; object-fit:cover; border-radius: 5px;">
+                                    <div class="title p-3">
+                                        Drop Bandung - Bandara Kertajati
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="">
-                                        <img src="images/services/images_6.jpg" alt="" style="width: 150px; height:100px; object-fit:cover;">
-                                        <div class="title">
-                                            Drop Bandara Kertajati - Bandung
-                                        </div>
-                                    </a>
+                                    <img src="images/services/images_6.jpg" alt="" style="width: 285px; height:185px; object-fit:cover;">
+                                    <div class="title p-3">
+                                        Drop Bandara Kertajati - Bandung
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -183,29 +173,29 @@ Beranda
             <div class="row align-items-center">
                 <div class="col-lg-5 offset-lg-7">
 
-                    <h2>Only Quality For Clients</h2>
+                    <h2>Team Yaze Holidays</h2>
                     <div class="spacer-20"></div>
 
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Luxury</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Senyum</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Comfort</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Salam</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Prestige</button>
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Sapa </button>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <p>We offer a meticulously curated collection of the most sought-after luxury vehicles on the market. Whether you prefer the sporty allure of a high-performance sports car, the sophistication of a sleek and luxurious sedan, or the versatility of a premium SUV, we have the perfect car to match your discerning taste.</p>
+                            <p>Ketika Anda memasuki kantor Yaze Holidays atau berbicara dengan tim kami melalui telepon, Anda akan selalu disambut oleh senyum hangat. Senyum adalah bahasa universal yang tidak mengenal batas, dan kami memahami bahwa senyum dapat meredakan stres perjalanan dan membuat pelanggan merasa dihargai. Di Yaze Holidays, senyum adalah bagian dari identitas kami, dan kami menggunakannya untuk menciptakan atmosfer yang ramah dan mengundang dalam setiap interaksi dengan pelanggan.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <p>We prioritize your comfort and convenience throughout your journey. We understand that a comfortable ride can make a world of difference, whether you're embarking on a business trip or enjoying a leisurely vacation. That's why we offer a wide range of well-maintained, comfortable cars that cater to your specific needs.</p>
+                            <p>Memberikan salam yang ramah adalah salah satu nilai inti kami. Ketika Anda menghubungi Yaze Holidays, Anda akan selalu mendengar sapaan hangat yang memperlihatkan penghormatan terhadap keberadaan Anda. Salam kami adalah cara untuk menyambut Anda dalam perjalanan liburan Anda dan memberikan keyakinan bahwa Anda telah memilih mitra perjalanan yang peduli. Di Yaze Holidays, kami yakin bahwa salam adalah pintu pertama menuju pengalaman liburan yang tak terlupakan.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                            <p>We understand that prestige goes beyond luxury. It's about making a statement, embracing sophistication, and indulging in the finer things in life. That's why we offer an exclusive selection of prestigious cars that exude elegance, style, and status.</p>
+                            <p>Ketika Anda bepergian bersama Yaze Holidays, Anda akan merasakan kehangatan dan perhatian dalam setiap aspek perjalanan Anda. Kami selalu berusaha untuk mengenal pelanggan kami secara pribadi, mendengarkan kebutuhan mereka, dan memberikan sapaan yang melekat dalam hati. Sapaan kami bukan hanya kata-kata, tetapi ekspresi dari komitmen kami untuk menjadikan setiap perjalanan Anda menjadi pengalaman yang istimewa.</p>
                         </div>
                     </div>
 
@@ -293,7 +283,7 @@ Beranda
         </div>
     </section> -->
 
-    <section id="section-news">
+    <section id="section-news" class="p-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 text-center">
@@ -308,13 +298,17 @@ Beranda
                         <div class="post-content">
                             <div class="post-image">
                                 <div class="date-box">
-                                    <div class="m">10</div>
-                                    <div class="d">MAR</div>
+                                    <div class="m">7</div>
+                                    <div class="d">NOV</div>
                                 </div>
                                 <img alt="" src="{{ Storage::url($article->image) }}" class="lazy">
                             </div>
                             <div class="post-text">
-                                <h4><a href="news-single.html">{{ $article->title }}<span></span></a></h4>
+                                <h4>
+                                    <div class="one-line-group">
+                                        <a href="news-single.html" class="one-line">{{ $article->title }}<span></span></a>
+                                    </div>
+                                </h4>
                                 <p>Author : {{ $article->writer }}</p>
                                 <a class="btn-main" href="{{ route('article.detail', $article) }}">Read More</a>
                             </div>
