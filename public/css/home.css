@@ -53,7 +53,23 @@ header.header-light .logo-2 {
         font-size: 47px;
         line-height: 46px;
     }
-} 
+}
+
+@media (min-width: 480px) {
+    #section-cars-mobile{
+        display: none;
+    }
+
+    img[class="car_photo"]{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #section-cars{
+        display: none;
+    }
+}
 
 /* @media (max-width: 480px) {
     #content section:first-of-type{
