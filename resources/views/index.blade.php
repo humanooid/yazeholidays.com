@@ -93,6 +93,54 @@ Beranda
         </div>
     </section>
 
+    <section id="section-cars-mobile" class="no-top no-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <h2>Armada yang kami miliki</h2>
+                    <p>Mewujudkan impian Anda dengan armada kendaraan serbaguna yang luar biasa untuk perjalanan tak terlupakan.</p>
+                    <div class="spacer-20"></div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="wow fadeIn mb-1">
+
+                    @foreach($cars as $car)
+                    <div class="col-lg-12">
+                        <div class="de-item mb30">
+                            <div class="d-img">
+                                <img class="car_photo" src="{{ asset('storage/images/' . $car->image) }}" class="img-fluid" alt="" style="width: 100%;" >
+                            </div>
+                            <div class="d-info">
+                                <div class="d-text">
+                                    <h4>{{ $car->car_name }}</h4>
+                                    <div class="d-item_like">
+                                        <!-- <i class="fa fa-heart"></i><span>74</span> -->
+                                    </div>
+                                    <div class="d-atr-group">
+                                        <span class="d-atr"><img src="images/icons/1.svg" alt="">{{ $car->passenger }}</span>
+                                        <span class="d-atr"><img src="images/icons/2.svg" alt="">{{ $car->baggage }}</span>
+                                        <span class="d-atr"><img src="images/icons/3.svg" alt="">{{ $car->door }}</span>
+                                        <span class="d-atr"><img src="images/icons/4.svg" alt="">{{ $car->type }}</span>
+                                    </div>
+                                    <div class="d-price">
+                                        Daily rate from <span>{{ $car->formattedPrice }}</span>
+                                        <a class="btn-main" href="whatsapp://send?text=Hallo admin !, saya ingin rental mobil {{ $car->car_name }} yang ada di website https://yazeholidays.com/&phone=+6281222802130">Rental</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+
+                <hr>
+
+            </div>
+        </div>
+    </section>
+
     <section id="services" class="no-top">
         <div class="container">
             <div class="row align-items-center">
